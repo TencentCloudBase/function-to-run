@@ -1,0 +1,27 @@
+{
+  "name": "@cloudbase/function-to-run",
+  "version": "0.0.1",
+  "description": "将云函数转换为云托管",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm test",
+    "dev": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TencentCloudBase/function-to-run.git"
+  },
+  "author": "Starkwang",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/TencentCloudBase/function-to-run/issues"
+  },
+  "homepage": "https://github.com/TencentCloudBase/function-to-run#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
+}
